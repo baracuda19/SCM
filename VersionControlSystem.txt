@@ -1,0 +1,31 @@
+Version Control System: CVS, SVN, TFS, VSS, Clearcase, Perforce, GIT
+---------------------------
+
+What is version Control Systems?
+
+My application has 40,000 files. There are roughly over 100 developers that modify these files onsite and offshore.
+how do they share the application together so they can all work on the code?
+---------------------------
+1.) I have a project that needs to be shared between other developers. I will import the project to the repository Trunk location. Since that is the first time repository has received the code, the versions will increment.
+Repo 1, Mike 0, John 0
+2.) Mike checksout the latest code, Repo1, Mike1, John0. 
+Mike modifies filea.txt which he received from checkingout, he saves it. Which version Repo 1, Mike 1 John 0. Now Mike checks it in or commits.Repo 2, Mike 2, John 0.
+3.) John checks out the latest version Repo 2, Mike 2, John 2
+4.) Mike modifies fileb.txt and he saves it and he commits it. Repo 3, Mike 3, John 2
+5.) John updates it and gets the latest version from repo. Repo 3, Mike3, John3
+6.) John modifies filea.txt, filec.txt and he checks it in. Repo 4, Mike3, John4
+7.) Mike updates it. Repo 4, Mike4, John4
+
+8.) Both Mike and John are making changes to filea.txt. Mike commits it first which version Repo5, Mike5 John4. John is done with filea.txt and he commits it? Repo? Mike ? John?
+Repo is going to complain to John and say, Your code is not up to date. Someone has submitted Version number 5 and you are still at version number4. He needs to take a look at version number5 by updating. Once he realizes that someone else is also working on it, and he sees their change. Now, he can integerate the other guy's changes with his own. he cant not commit and it will become version number 5 because it already exists. This is called conflict.
+He will integerate his changes and commit and it will become version number 6.
+Repo6, Mike5, John6
+
+
+Thursday- Branching, Merging, Why they branch, Merge 45- an hour. Unix hw, 
+Version Control System
+
+-VSS, TFS, Broken down into 2 classes Before Monday.
+
+Will be due before thursday's class. You will download it on your computer, github, eclipse. You will do a demo to me only after the class. teamviewer ID and Password
+308youtube git

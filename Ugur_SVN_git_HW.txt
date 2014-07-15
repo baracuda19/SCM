@@ -1,0 +1,43 @@
+Version Control System 
+1.) What is the difference between checkout and export?
+	          Both are svn commands for copying project code to current directory. Difference is “checkout” allow you to 	get a “working copy” that allow you to make changes to files and commit back to the repository. However, 	“export” will only allow you get a “copy” of current state of repo and will not allow you to commit back any 	changes. 
+2.) What is the difference between update and checkout?
+	          A developer gets working copy of project code from the repository by “checkout” command. While the 	developer work his changes to project codes he needs to “update” his working copy to get latest changes that 	another 	developer commit back to the repository.
+3.) What is the difference between update and commit?
+	         For our own changes to a file we use commit command to write that changes to the repository. We use update 	command to get latest changes others commit to the repository.  
+4.) What is the difference between sandbox and repository?
+	         A sandbox is testing environment where developer checkout from protected repository and make changes to 	local copy. The repository is the residing place where  projects files of all versions with including all the changes 	made from different sandboxes. 	        
+5.) What is the difference between Trunk and Branch?
+	        Trunk is place where main development happens, and branches are places where different developer work 	on different functionalities.
+6.) When should we use TAG?
+	We should use “tag” for every major release of our project. 
+7.) What purpose is needed to create branch?
+              One purpose would be having more than one developer teams who modify different aspects of the project.
+8.) What are some branching stratgies? and what is the difference between branch and merge?
+	       Some of branching strategies are “branch per feature”, branch  per iteration”, “branch per team”. Branch gets a 	seperate copy of main code or another branch, merge combine the code in abrach to main code or another branch.                    
+10.) List the steps for merging in SVN, and explain them briefly.
+	cd /branch/mybranch               //change to branch directory
+	svn up 		                     //update changes made in branch
+	svn merge /path/to/trunk	      //merge changes made in branch to trunk
+	cd /path/to/trunk		      //change to trunk directory
+	svn up			      //update changes to trunk
+	svn merge /path/to/mybranch //merge latest changes to branch
+	svn ci 			     //commits
+1.) Why are companies going from svn to git?
+	    One of the reasons is that git is distrubated version control system. In git, every developer has their own local 	repository so they can do anything offline unlike svn that every branch has to be created in server. Plus git is faster 	and uses less space than svn 
+2.) What is git offsite model?
+	It is the ability work on a branch without access to reach remote server and commit changes local repository. 
+3.) What is the term remote mean in git?
+	It means a bookmark for a local or remote repository such as github.com
+4.) What are 3 main differences in svn and git? I need your understanding in this one. 
+	    Svn is a centralized revision control system and git is a distributed revision control system. When you check in 	or commit to svn, you are contracting a central repository, sync with the centralized versions, If two users want to 	share code, the only way to dois by checking into repository and then each doing a sync. In git, when you checkout 	a repository, you are getting a complete clone of the all files and all of versions. You make changes to locally, and 	commit to your local copy of the repository. You can push them to another repository. Since every repository is 	equal you can push changes everywhere. This is how two users can colloborate on a new feature without impacting 	the main repository. 
+	            The other different is git does not have global revision number like svn do. And also, git bracnhes are not 	the same as svn bracnhes. Bracnhes in svn are just another folder in the repository unlike git. 
+5.) What is git fetch, update, push, pull equivalent to in SVN commands?
+	git fetch ? svn status for remote repository 
+	update ? svn merge
+	git push ? svn commit
+	git pull ? svn update
+
+Advanced question:
+What are some responsibilities for the administration of SVN and git?
+	       Managing files, directories, designing branches, respository features, changes made to them over time. 	Recovering the older versions of projects code, examine the history of of how the codes changed. Solving conflicts 	when two or more users try to merge same time.

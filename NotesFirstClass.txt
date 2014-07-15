@@ -1,0 +1,32 @@
+Monday 8:30 Pm EST to 9:45
+Tuesday
+Thursday
+
+------------------------------------
+
+Amazon.com
+
+Users are the business users.
+
+Seller who is selling merchandise on amazon. Seller has a furniture store and he would like to sell his furniture online.
+
+Table has dimensions. l x w x h, colors, texture
+
+At amazon.com, business analsyt will work with the Business users to gather requirements and will have to eventually work with Project managers who can work with directors and Dev leads( developers manager).
+
+
+A requirement comes in and its large.
+Project manager breaks the requirement down into 6 activities
+Each activity will serve a purpose.
+Say for ex, there are 6 development teams. In each team there are 8 number of developers.
+
+Walmart.com Electronic section.
+Laptops, Camcorders, Tv, Refrigerator, Music, Printers
+
+Developers from Team1 is going to work on the laptop activity. Any changes that they will make, editing a file, creating folders will be made against that activity. through activity, you can trace who has modified the code, where was it modified, why was it modified, what was modified. Version Control System.
+
+Those have Windows, Please download teamviewer9 on your computer for personal Use only. send me your teamviewer ID and Password
+Cygwin. 
+asgill8@gmail.com
+848-228-1831
+

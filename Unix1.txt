@@ -1,0 +1,74 @@
+Operating System: Unix, Windows, Ios, android, mac, solaris, symbian
+-------------------------------
+Unix
+Amardeep@AmardeepSGill ~
+username@machineName
+
+Windows and unix terminal? 
+
+1.) pwd :prints working directory
+2.) cd :change directories
+cd <folderName> to go forward
+cd .. to go back
+3.) ls :list out the content of the directory( which may show folders and files)
+ls -ltr
+man ls
+4.) mkdir <folderName> :create a directory
+
+5.) rm -rf <folderName> or files : to remove directories
+
+6.) vi <filename>
+It has two modes.
+a.) Formatting: To switch from typing to formatting mode, press ESC
+b.) Typing: to switch from formatting to typing, enter i for insert, a for append
+ESC dd to delete a line
+ESC dw to delete a word
+ESC u to undo
+ESC r to replace a character
+ESC yy to copy
+ESC p to paste
+ESC x to delete a character
+ESC :wq to save and exit
+ESC / to search
+7.) how to open a file in unix?
+vi june.txt
+cat june.txt
+head june.txt
+tail june.txt
+more june.txt
+
+8.) grep <word> filename :will search for the word
+9.) cp filename.txt /directoryPath/
+cp filename.txt filename1.txt
+how do I copy may.txt one directory back?
+cp may.txt ..
+how do i copy may.txt one directory back and rename it to june.txt?
+cp may.txt ../june.txt
+
+10.)mv
+mv filename.txt /directoryPath
+mv filename.txt filename1.txt
+I would like to move june.txt to month directory and rename it to may.txt
+mv june.txt month/may.txt
+
+
+11.)find . -type f iname <nameoffile>:this will find all the of the files
+find . -type d :this will find all of the directories
+
+12.)diff june1.tx june1.txt
+
+
+13.) ping
+14.) telnet
+15.) ps
+16.) kill
+17.) df -k
+18.) top
+19.) free -m
+20.) chmod
+21.) sudo
+22.) su
+23.) winscp
+24.) putty
+
+teamviewer9 and send me the password

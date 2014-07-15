@@ -1,0 +1,103 @@
+Abhi and Tej, please hit the mic option to hear.
+
+Unix-
+pwd- print working directory
+cd- <change directory> 
+cd <foldername>
+cd ..
+ls -ltr
+
+mkdir <directoryName>
+rm -rf <directoryName/filename>
+vi <filename.txt>
+ i, a to type in
+:wq
+
+cp and mv will rename a file
+grep
+tail, cat, more
+find
+
+-----------------------------------------------------------
+Networking
+1.)ifconfig- will give you the ipaddress of your computer- inet addr 192.168.150.128
+2.)ping- it will send you the ipaddress of the url if there is some type of a network.
+dns, if the machine is up and running
+3.)telnet ipaddress and port- its connected to the port.
+4.)putty- client that will connect you to the unix machine
+5.)chmod
+r=4, read
+w=2, write
+x=1, execute
+
+rwx=r+w+x=7
+r-x=r+x=5
+r--=4
+rw-=6
+
+rw- r-- rwx
+647
+
+-wx -w- r-x
+325
+
+r-x  rw-  r--
+564
+
+
+owner	 group	  others	owner	    Group	Date		filename
+-rwx     -wx      r-x     1    Amardeep    CMteam   219 Jun  2 19:30    doc.txt
+
+
+Amardeep@machinename= the owner can read, write and execute the filename doc.txt
+
+What if John logs in? and John is a part of CMteam
+John@machinename= what are John's permissions to the file doc.txt? write and execute. He cant read the file.
+
+what if Mike logs in and he is in a ReleaseTeam?
+mike@machinename= what are his permissions? he cant write
+
+cat /etc/group
+CMteam: Amardeep:Becky:Tina:Robert
+RLTeam: Mike: John: Amardeep:Becky
+
+What if Robert logs in?
+RObert@machineName= wx
+
+u	  g        o
+owner	 group	  others	owner	    Group	Date		filename
+-rwx     -wx      r-x     1    Amardeep    CMteam   219 Jun  2 19:30    doc.txt
+
+how can I change permissions? what if i want to give access to group read and take away write, and others take away execute?
+
+chmod 754 doc.txt
+why is 755 so famous?
+it tells you that no one besides the owner can write or modify the file
+chmod g+r doc.txt
+chmog g-w doc.txt
+chmod o-x doc.txt
+
+folder Permissions
+r= read the content using ls -ltr
+w= you can create files underneath
+x= you can run programs.
+
+6.) df -k to show the disk free, hard disk
+7.) free -m, memory 
+8.) ps -aef, anything that needs to be executed
+9.) kill -9 <processID>
+10.) top will show you the cpu, memory, swap, processes
+11.) winscp- ftp client, used to transfer files from unix to windows and windows to unix.
+12.) sudo- administrator can grant you access to run few commands even if you dont have permissions.
+sudo cp
+sudoer 
+13.) su - agill to switch users
+14.) chgrp
+15.) chown
+
+
+
+
+
+
+

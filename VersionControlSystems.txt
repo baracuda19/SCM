@@ -1,0 +1,19 @@
+Version Control System 
+1.) What is the difference between checkout and export?
+2.) What is the difference between update and checkout?
+3.) What is the difference between update and commit?
+4.) What is the difference between sandbox and repository?
+5.) What is the difference between Trunk and Branch?
+6.) When should we use TAG?
+7.) What purpose is needed to create branch?
+8.) What are some branching stratgies? and what is the difference between branch and merge?
+10.) List the steps for merging in SVN, and explain them briefly.
+
+Svn, Git
+1.) Why are companies going from svn to git?
+2.) What is git offsite model?
+3.) What is the term remote mean in git?
+4.) What are 3 main differences in svn and git? I need your understanding in this one. 
+5.) What is git fetch, update, push, pull equivalent to in SVN commands?
+Advanced question:
+What are some responsibilities for the administration of SVN and git?
